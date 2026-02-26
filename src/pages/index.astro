@@ -15,40 +15,37 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Open Sans', sans-serif; color: #333; }
     h1, h2, h3, h4 { font-family: 'Quicksand', sans-serif; }
-    .aspect-square { aspect-ratio: 1/1; }
-    .aspect-4-3 { aspect-ratio: 4/3; }
-    .aspect-3-4 { aspect-ratio: 3/4; }
   </style>
 </head>
 
 <body class="bg-white">
   <!-- Top Banner -->
-  <div class="bg-[#E91E8C] text-white text-center py-2.5 text-sm font-medium">
+  <div class="bg-[#E91E8C] text-white text-center py-3 text-xs sm:text-sm font-medium px-4">
     <a href="/collections" class="hover:underline">We ship out in 1-2 business days | Free exchanges on U.S. orders</a>
   </div>
 
   <!-- Trust Badges -->
-  <div class="bg-white py-4 border-b border-gray-100">
-    <div class="max-w-7xl mx-auto flex justify-center gap-16 text-sm text-gray-600">
+  <div class="bg-white py-4 sm:py-5 border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-wrap justify-center gap-6 sm:gap-12 lg:gap-16 text-xs sm:text-sm text-gray-600">
       <div class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-[#E91E8C]" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"/></svg>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#E91E8C]" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"/></svg>
         <span>Woman-Owned Brand</span>
       </div>
       <div class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-[#E91E8C]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z" clip-rule="evenodd"/></svg>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#E91E8C]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z" clip-rule="evenodd"/></svg>
         <span>US-Based Brand</span>
       </div>
       <div class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-[#E91E8C]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#E91E8C]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
         <span>Serving Shelters</span>
       </div>
     </div>
   </div>
 
   <!-- Header -->
-  <header class="bg-white py-3 border-b sticky top-0 z-50 shadow-sm">
-    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
-      <nav class="hidden md:flex gap-8 text-sm font-medium">
+  <header class="bg-white py-4 border-b sticky top-0 z-50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
+      <nav class="hidden lg:flex gap-6 xl:gap-8 text-sm font-medium">
         <a href="/collections/easter" class="hover:text-[#E91E8C] transition-colors">Holidays</a>
         <a href="/collections/pajamas" class="hover:text-[#E91E8C] transition-colors">For the Pup</a>
         <a href="/collections/apparel" class="hover:text-[#E91E8C] transition-colors">Matching Family PJs</a>
@@ -56,17 +53,24 @@
         <a href="/collections/sale" class="text-[#E91E8C] font-semibold">Sale</a>
       </nav>
       
-      <a href="/" class="text-2xl font-bold text-[#E91E8C] font-display flex items-center gap-2">
-        <span class="text-3xl">🥊</span> Boxer Clothing Co.
+      <!-- Mobile menu button -->
+      <button class="lg:hidden p-2">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      
+      <a href="/" class="text-xl sm:text-2xl font-bold text-[#E91E8C] font-display flex items-center gap-2">
+        <span class="text-2xl sm:text-3xl">🥊</span> 
+        <span class="hidden sm:inline">Boxer Clothing Co.</span>
+        <span class="sm:hidden">Boxer Co.</span>
       </a>
       
-      <div class="flex items-center gap-6 text-sm font-medium">
-        <a href="/pages/sizing" class="hover:text-[#E91E8C] transition-colors">Size Charts</a>
+      <div class="flex items-center gap-4 sm:gap-6 text-sm font-medium">
+        <a href="/pages/sizing" class="hidden sm:block hover:text-[#E91E8C] transition-colors">Size Charts</a>
         <a href="/account" class="hover:text-[#E91E8C] transition-colors">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
         </a>
         <a href="/cart" class="hover:text-[#E91E8C] transition-colors relative">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
           <span class="absolute -top-2 -right-2 bg-[#E91E8C] text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">0</span>
         </a>
       </div>
@@ -75,113 +79,113 @@
 
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-[#fdf2f8] to-[#ecfeff]">
-    <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-8 items-center min-h-[500px]">
-      <div class="space-y-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20 lg:py-28 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+      <div class="space-y-6 sm:space-y-8 text-center lg:text-left">
         <p class="text-[#E91E8C] font-semibold text-sm tracking-wide uppercase">Loved by 25,000+ Boxer Pawrents</p>
-        <h1 class="text-5xl md:text-6xl font-bold text-gray-900 font-display leading-tight">
-          Hop Into Easter<br>Style 🐣
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 font-display leading-tight">
+          Hop Into Easter<br class="hidden sm:block"> Style 🐣
         </h1>
-        <p class="text-lg text-gray-600">Easter Snuggles Start HERE!</p>
-        <a href="/collections/easter-2026" class="inline-block bg-[#E91E8C] text-white px-8 py-3.5 rounded-full font-semibold text-sm uppercase tracking-wide hover:bg-[#d11a7d] transition-colors shadow-lg shadow-pink-200">
+        <p class="text-lg sm:text-xl text-gray-600">Easter Snuggles Start HERE!</p>
+        <a href="/collections/easter-2026" class="inline-block bg-[#E91E8C] text-white px-8 sm:px-10 py-4 rounded-full font-semibold text-sm uppercase tracking-wide hover:bg-[#d11a7d] transition-colors shadow-lg shadow-pink-200">
           Pre-Order Easter
         </a>
-        <div class="flex items-center gap-6 pt-4">
+        <div class="flex items-center justify-center lg:justify-start gap-6 pt-4">
           <span class="text-gray-400 text-sm">As Seen In</span>
           <span class="font-bold text-gray-600 text-lg">People</span>
           <span class="font-bold text-gray-600 text-lg">wttw</span>
         </div>
       </div>
-      <div class="relative flex justify-center">
-        <img src="https://images.unsplash.com/photo-1543071220-6ee5bf71a54e?w=600&h=500&fit=crop" alt="Happy boxer dog" class="rounded-3xl shadow-2xl max-h-[450px] object-cover" />
+      <div class="relative flex justify-center order-first lg:order-last">
+        <img src="https://images.unsplash.com/photo-1543071220-6ee5bf71a54e?w=600&h=500&fit=crop" alt="Happy boxer dog" class="rounded-3xl shadow-2xl w-full max-w-md lg:max-w-lg object-cover" />
       </div>
     </div>
   </section>
 
   <!-- Benefits Bar -->
-  <section class="bg-white py-6 border-y border-gray-100">
-    <div class="max-w-5xl mx-auto px-6 grid grid-cols-3 gap-8 text-center">
-      <div class="flex flex-col items-center gap-2">
-        <svg class="w-8 h-8 text-[#00B4C5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-        <span class="text-gray-700 text-sm">Protects skin from allergens</span>
+  <section class="bg-white py-8 sm:py-10 lg:py-12 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
+      <div class="flex flex-col items-center gap-3">
+        <svg class="w-10 h-10 sm:w-12 sm:h-12 text-[#00B4C5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        <span class="text-gray-700 text-sm sm:text-base">Protects skin from allergens</span>
       </div>
-      <div class="flex flex-col items-center gap-2">
-        <svg class="w-8 h-8 text-[#E91E8C]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        <span class="text-gray-700 text-sm">Reduces breed stigma</span>
+      <div class="flex flex-col items-center gap-3">
+        <svg class="w-10 h-10 sm:w-12 sm:h-12 text-[#E91E8C]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        <span class="text-gray-700 text-sm sm:text-base">Reduces breed stigma</span>
       </div>
-      <div class="flex flex-col items-center gap-2">
-        <svg class="w-8 h-8 text-[#00B4C5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
-        <span class="text-gray-700 text-sm">Keeps them warm and cozy</span>
+      <div class="flex flex-col items-center gap-3">
+        <svg class="w-10 h-10 sm:w-12 sm:h-12 text-[#00B4C5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+        <span class="text-gray-700 text-sm sm:text-base">Keeps them warm and cozy</span>
       </div>
     </div>
   </section>
 
   <!-- Shop By Print -->
-  <section class="py-16 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center mb-10">
-        <h2 class="text-3xl font-bold mb-3 font-display text-gray-900">Shop By Print</h2>
-        <p class="text-gray-500 max-w-xl mx-auto">
+  <section class="py-16 sm:py-20 lg:py-28 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10 sm:mb-14 lg:mb-16">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 font-display text-gray-900">Shop By Print</h2>
+        <p class="text-gray-500 max-w-xl mx-auto text-sm sm:text-base">
           Discover the perfect expression for your boxer's personality with a vibrant array of designs.
         </p>
       </div>
-      <div class="grid grid-cols-3 md:grid-cols-6 gap-4">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5 lg:gap-6">
         <a href="/collections/land-seals" class="group">
           <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-square overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=200&h=200&fit=crop" alt="Land Seals" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+              <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=300&h=300&fit=crop" alt="Land Seals" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <div class="p-3 text-center">
-              <h3 class="font-semibold text-gray-900 text-sm">Land Seals</h3>
+            <div class="p-3 sm:p-4 text-center">
+              <h3 class="font-semibold text-gray-900 text-sm sm:text-base">Land Seals</h3>
             </div>
           </div>
         </a>
         <a href="/collections/cow" class="group">
           <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-square overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=200&h=200&fit=crop" alt="In a Moo'd" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+              <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=300&h=300&fit=crop" alt="In a Moo'd" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <div class="p-3 text-center">
-              <h3 class="font-semibold text-gray-900 text-sm">In a Moo'd</h3>
+            <div class="p-3 sm:p-4 text-center">
+              <h3 class="font-semibold text-gray-900 text-sm sm:text-base">In a Moo'd</h3>
             </div>
           </div>
         </a>
         <a href="/collections/pizza" class="group">
           <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-square overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=200&h=200&fit=crop" alt="Pizza Your Heart" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+              <img src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=300&h=300&fit=crop" alt="Pizza Your Heart" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <div class="p-3 text-center">
-              <h3 class="font-semibold text-gray-900 text-sm">Pizza Your Heart</h3>
+            <div class="p-3 sm:p-4 text-center">
+              <h3 class="font-semibold text-gray-900 text-sm sm:text-base">Pizza Your Heart</h3>
             </div>
           </div>
         </a>
         <a href="/collections/dinos" class="group">
           <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-square overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=200&h=200&fit=crop" alt="Lazy Bones" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+              <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=300&h=300&fit=crop" alt="Lazy Bones" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <div class="p-3 text-center">
-              <h3 class="font-semibold text-gray-900 text-sm">Lazy Bones</h3>
+            <div class="p-3 sm:p-4 text-center">
+              <h3 class="font-semibold text-gray-900 text-sm sm:text-base">Lazy Bones</h3>
             </div>
           </div>
         </a>
         <a href="/collections/dragons" class="group">
           <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-square overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=200&h=200&fit=crop" alt="Dragon Me to Bed" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+              <img src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=300&h=300&fit=crop" alt="Dragon Me to Bed" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <div class="p-3 text-center">
-              <h3 class="font-semibold text-gray-900 text-sm">Dragon Me to Bed</h3>
+            <div class="p-3 sm:p-4 text-center">
+              <h3 class="font-semibold text-gray-900 text-sm sm:text-base">Dragon Me to Bed</h3>
             </div>
           </div>
         </a>
         <a href="/collections/duckies" class="group">
           <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-square overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?w=200&h=200&fit=crop" alt="So Ducking Cute" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+              <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?w=300&h=300&fit=crop" alt="So Ducking Cute" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <div class="p-3 text-center">
-              <h3 class="font-semibold text-gray-900 text-sm">So Ducking Cute</h3>
+            <div class="p-3 sm:p-4 text-center">
+              <h3 class="font-semibold text-gray-900 text-sm sm:text-base">So Ducking Cute</h3>
             </div>
           </div>
         </a>
@@ -190,32 +194,32 @@
   </section>
 
   <!-- Trending Now -->
-  <section class="py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-center mb-10 font-display">Trending Now</h2>
-      <div class="grid md:grid-cols-3 gap-6">
-        <a href="/collections/easter-2026" class="group relative rounded-2xl overflow-hidden shadow-lg aspect-4-3">
-          <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop" alt="Easter Pre-order" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          <div class="absolute top-4 left-4 bg-[#E91E8C] text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide">Holiday</div>
+  <section class="py-16 sm:py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-10 sm:mb-14 lg:mb-16 font-display">Trending Now</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <a href="/collections/easter-2026" class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+          <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=500&h=375&fit=crop" alt="Easter Pre-order" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute top-4 left-4 bg-[#E91E8C] text-white px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">Holiday</div>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-          <div class="absolute bottom-4 left-4">
-            <h3 class="text-white text-xl font-bold">Easter *Pre-order*</h3>
+          <div class="absolute bottom-5 left-5">
+            <h3 class="text-white text-xl sm:text-2xl font-bold">Easter *Pre-order*</h3>
           </div>
         </a>
-        <a href="/collections/land-seals" class="group relative rounded-2xl overflow-hidden shadow-lg aspect-4-3">
-          <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?w=400&h=300&fit=crop" alt="Land Seals" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          <div class="absolute top-4 left-4 bg-[#00B4C5] text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide">Best Seller</div>
+        <a href="/collections/land-seals" class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+          <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?w=500&h=375&fit=crop" alt="Land Seals" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute top-4 left-4 bg-[#00B4C5] text-white px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">Best Seller</div>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-          <div class="absolute bottom-4 left-4">
-            <h3 class="text-white text-xl font-bold">Land Seals</h3>
+          <div class="absolute bottom-5 left-5">
+            <h3 class="text-white text-xl sm:text-2xl font-bold">Land Seals</h3>
           </div>
         </a>
-        <a href="/collections/wiggle-butts" class="group relative rounded-2xl overflow-hidden shadow-lg aspect-4-3">
-          <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=300&fit=crop" alt="Wiggle Butts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          <div class="absolute top-4 left-4 bg-[#00B4C5] text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide">Best Seller</div>
+        <a href="/collections/wiggle-butts" class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] sm:col-span-2 lg:col-span-1">
+          <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=500&h=375&fit=crop" alt="Wiggle Butts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute top-4 left-4 bg-[#00B4C5] text-white px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">Best Seller</div>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-          <div class="absolute bottom-4 left-4">
-            <h3 class="text-white text-xl font-bold">Wiggle Butts</h3>
+          <div class="absolute bottom-5 left-5">
+            <h3 class="text-white text-xl sm:text-2xl font-bold">Wiggle Butts</h3>
           </div>
         </a>
       </div>
@@ -223,47 +227,47 @@
   </section>
 
   <!-- Mission Statement -->
-  <section class="py-16 bg-[#E91E8C]">
-    <div class="max-w-3xl mx-auto px-6 text-center text-white">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4 font-display">No dog should be judged solely on their breed.</h2>
-      <p class="text-lg opacity-90">
+  <section class="py-16 sm:py-20 lg:py-24 bg-[#E91E8C]">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center text-white">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 font-display leading-tight">No dog should be judged solely on their breed.</h2>
+      <p class="text-base sm:text-lg lg:text-xl opacity-90 max-w-2xl mx-auto">
         Your boxer deserves to be spoiled with the cute clothes that inspire an "AWE" from everyone they meet.
       </p>
     </div>
   </section>
 
   <!-- Categories -->
-  <section class="py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-5">
+  <section class="py-16 sm:py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
       <a href="/collections/apparel" class="group">
-        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-3-4">
-          <img src="https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=300&h=400&fit=crop" alt="Matching Pajamas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 text-center">
-            <h3 class="font-bold text-gray-900">Matching Pajamas</h3>
+        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[3/4]">
+          <img src="https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=400&h=533&fit=crop" alt="Matching Pajamas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 sm:py-4 text-center">
+            <h3 class="font-bold text-gray-900 text-sm sm:text-base">Matching Pajamas</h3>
           </div>
         </div>
       </a>
       <a href="/collections/bandanas" class="group">
-        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-3-4">
-          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=300&h=400&fit=crop" alt="Bandanas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 text-center">
-            <h3 class="font-bold text-gray-900">Bandanas</h3>
+        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[3/4]">
+          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=533&fit=crop" alt="Bandanas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 sm:py-4 text-center">
+            <h3 class="font-bold text-gray-900 text-sm sm:text-base">Bandanas</h3>
           </div>
         </div>
       </a>
       <a href="/collections/collars" class="group">
-        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-3-4">
-          <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?w=300&h=400&fit=crop" alt="Collars" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 text-center">
-            <h3 class="font-bold text-gray-900">Collars</h3>
+        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[3/4]">
+          <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?w=400&h=533&fit=crop" alt="Collars" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 sm:py-4 text-center">
+            <h3 class="font-bold text-gray-900 text-sm sm:text-base">Collars</h3>
           </div>
         </div>
       </a>
       <a href="/collections/baby-onesies" class="group">
-        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-3-4">
-          <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=300&h=400&fit=crop" alt="Kids & Fur Babies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 text-center">
-            <h3 class="font-bold text-gray-900">Kids & Fur Babies</h3>
+        <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[3/4]">
+          <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&h=533&fit=crop" alt="Kids & Fur Babies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute bottom-0 left-0 right-0 bg-white/95 py-3 sm:py-4 text-center">
+            <h3 class="font-bold text-gray-900 text-sm sm:text-base">Kids & Fur Babies</h3>
           </div>
         </div>
       </a>
@@ -271,37 +275,37 @@
   </section>
 
   <!-- Sizing Guide -->
-  <section class="py-16 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-center mb-12 font-display">Sizing Guide</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
-          <div class="aspect-video rounded-xl overflow-hidden mb-5">
-            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=300&h=200&fit=crop" alt="Step 1" class="w-full h-full object-cover" />
+  <section class="py-16 sm:py-20 lg:py-28 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-10 sm:mb-14 lg:mb-16 font-display">Sizing Guide</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm text-center">
+          <div class="aspect-video rounded-xl overflow-hidden mb-6">
+            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400&h=225&fit=crop" alt="Step 1" class="w-full h-full object-cover" />
           </div>
           <p class="text-[#E91E8C] font-bold text-sm mb-2">STEP 1</p>
-          <h3 class="text-lg font-bold mb-2">Measure your pup</h3>
-          <p class="text-gray-500 text-sm">Use our handy chart to find the right size. Our jammies are designed to fit those muscular boxer bodies perfectly.</p>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Measure your pup</h3>
+          <p class="text-gray-500 text-sm sm:text-base">Use our handy chart to find the right size. Our jammies are designed to fit those muscular boxer bodies perfectly.</p>
         </div>
-        <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
-          <div class="aspect-video rounded-xl overflow-hidden mb-5">
-            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?w=300&h=200&fit=crop" alt="Step 2" class="w-full h-full object-cover" />
+        <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm text-center">
+          <div class="aspect-video rounded-xl overflow-hidden mb-6">
+            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?w=400&h=225&fit=crop" alt="Step 2" class="w-full h-full object-cover" />
           </div>
           <p class="text-[#E91E8C] font-bold text-sm mb-2">STEP 2</p>
-          <h3 class="text-lg font-bold mb-2">Find your match</h3>
-          <p class="text-gray-500 text-sm">Choose from dozens of bright colors and funky patterns to show off your boxer's unique personality.</p>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Find your match</h3>
+          <p class="text-gray-500 text-sm sm:text-base">Choose from dozens of bright colors and funky patterns to show off your boxer's unique personality.</p>
         </div>
-        <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
-          <div class="aspect-video rounded-xl overflow-hidden mb-5">
-            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=300&h=200&fit=crop" alt="Step 3" class="w-full h-full object-cover" />
+        <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm text-center sm:col-span-2 lg:col-span-1">
+          <div class="aspect-video rounded-xl overflow-hidden mb-6">
+            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=225&fit=crop" alt="Step 3" class="w-full h-full object-cover" />
           </div>
           <p class="text-[#E91E8C] font-bold text-sm mb-2">STEP 3</p>
-          <h3 class="text-lg font-bold mb-2">Start twinning</h3>
-          <p class="text-gray-500 text-sm">Be Instagram-ready with your new matching jammie set. Snap those pics and share the boxer love!</p>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Start twinning</h3>
+          <p class="text-gray-500 text-sm sm:text-base">Be Instagram-ready with your new matching jammie set. Snap those pics and share the boxer love!</p>
         </div>
       </div>
-      <div class="text-center mt-10">
-        <a href="/collections/all" class="inline-block bg-[#E91E8C] text-white px-8 py-3.5 rounded-full font-semibold text-sm uppercase tracking-wide hover:bg-[#d11a7d] transition-colors">
+      <div class="text-center mt-10 sm:mt-14">
+        <a href="/collections/all" class="inline-block bg-[#E91E8C] text-white px-8 sm:px-10 py-4 rounded-full font-semibold text-sm uppercase tracking-wide hover:bg-[#d11a7d] transition-colors">
           Shop Now
         </a>
       </div>
@@ -309,85 +313,85 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-center mb-12 font-display">All the boxer people say…</h2>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-gray-50 rounded-2xl p-6">
-          <div class="flex gap-1 text-[#E91E8C] mb-4">★★★★★</div>
-          <h3 class="text-lg font-bold mb-3">Perfect Fit!</h3>
-          <p class="text-gray-600 text-sm mb-4">Finally found pajamas that fit my boxer's muscular chest! He looks so handsome and the quality is amazing. Will definitely be ordering more.</p>
-          <p class="font-semibold text-sm">Sarah M.</p>
-          <p class="text-gray-400 text-xs">Boxer Mom</p>
+  <section class="py-16 sm:py-20 lg:py-28 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-10 sm:mb-14 lg:mb-16 font-display">All the boxer people say…</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div class="bg-gray-50 rounded-2xl p-6 sm:p-8">
+          <div class="flex gap-1 text-[#E91E8C] text-xl mb-4">★★★★★</div>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Perfect Fit!</h3>
+          <p class="text-gray-600 text-sm sm:text-base mb-5">Finally found pajamas that fit my boxer's muscular chest! He looks so handsome and the quality is amazing. Will definitely be ordering more.</p>
+          <p class="font-semibold">Sarah M.</p>
+          <p class="text-gray-400 text-sm">Boxer Mom</p>
         </div>
-        <div class="bg-gray-50 rounded-2xl p-6">
-          <div class="flex gap-1 text-[#E91E8C] mb-4">★★★★★</div>
-          <h3 class="text-lg font-bold mb-3">So Much Love!</h3>
-          <p class="text-gray-600 text-sm mb-4">Every time we go out in our matching jammies, people stop to compliment us. My boxer Duke gets so many pets now. Total game changer!</p>
-          <p class="font-semibold text-sm">Mike R.</p>
-          <p class="text-gray-400 text-xs">Proud Boxer Dad</p>
+        <div class="bg-gray-50 rounded-2xl p-6 sm:p-8">
+          <div class="flex gap-1 text-[#E91E8C] text-xl mb-4">★★★★★</div>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">So Much Love!</h3>
+          <p class="text-gray-600 text-sm sm:text-base mb-5">Every time we go out in our matching jammies, people stop to compliment us. My boxer Duke gets so many pets now. Total game changer!</p>
+          <p class="font-semibold">Mike R.</p>
+          <p class="text-gray-400 text-sm">Proud Boxer Dad</p>
         </div>
-        <div class="bg-gray-50 rounded-2xl p-6">
-          <div class="flex gap-1 text-[#E91E8C] mb-4">★★★★★</div>
-          <h3 class="text-lg font-bold mb-3">Amazing Quality!</h3>
-          <p class="text-gray-600 text-sm mb-4">The material is so soft and stretchy. My girl loves wearing her jammies - she actually gets excited when I pull them out!</p>
-          <p class="font-semibold text-sm">Jennifer T.</p>
-          <p class="text-gray-400 text-xs">Boxer Enthusiast</p>
+        <div class="bg-gray-50 rounded-2xl p-6 sm:p-8 sm:col-span-2 lg:col-span-1">
+          <div class="flex gap-1 text-[#E91E8C] text-xl mb-4">★★★★★</div>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Amazing Quality!</h3>
+          <p class="text-gray-600 text-sm sm:text-base mb-5">The material is so soft and stretchy. My girl loves wearing her jammies - she actually gets excited when I pull them out!</p>
+          <p class="font-semibold">Jennifer T.</p>
+          <p class="text-gray-400 text-sm">Boxer Enthusiast</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Stats -->
-  <section class="py-16 bg-gradient-to-br from-[#fdf2f8] to-[#ecfeff]">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-10 font-display">Helping Boxers Find Their Furever Home</h2>
-      <div class="grid md:grid-cols-3 gap-8">
+  <section class="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-[#fdf2f8] to-[#ecfeff]">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-10 sm:mb-14 font-display">Helping Boxers Find Their Furever Home</h2>
+      <div class="grid sm:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
         <div>
-          <p class="text-5xl font-bold text-[#E91E8C] mb-1">2,847</p>
-          <p class="text-gray-600 text-sm"><strong>Boxer pajamas</strong> donated to shelters nationwide.</p>
+          <p class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#E91E8C] mb-2">2,847</p>
+          <p class="text-gray-600 text-sm sm:text-base"><strong>Boxer pajamas</strong> donated to shelters nationwide.</p>
         </div>
         <div>
-          <p class="text-5xl font-bold text-[#00B4C5] mb-1">$12,500</p>
-          <p class="text-gray-600 text-sm"><strong>Dollars donated</strong> to Boxer rescues.</p>
+          <p class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#00B4C5] mb-2">$12,500</p>
+          <p class="text-gray-600 text-sm sm:text-base"><strong>Dollars donated</strong> to Boxer rescues.</p>
         </div>
         <div>
-          <p class="text-5xl font-bold text-[#E91E8C] mb-1">18</p>
-          <p class="text-gray-600 text-sm"><strong>Rescue partners</strong> in 12 states.</p>
+          <p class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#E91E8C] mb-2">18</p>
+          <p class="text-gray-600 text-sm sm:text-base"><strong>Rescue partners</strong> in 12 states.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Features -->
-  <section class="py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-center mb-12 font-display">More Than Flashy Jammies</h2>
-      <div class="grid md:grid-cols-3 gap-8">
+  <section class="py-16 sm:py-20 lg:py-28 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-10 sm:mb-14 lg:mb-16 font-display">More Than Flashy Jammies</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
         <div class="text-center">
-          <div class="w-14 h-14 bg-[#E91E8C]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg class="w-7 h-7 text-[#E91E8C]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <div class="w-16 h-16 sm:w-20 sm:h-20 bg-[#E91E8C]/10 rounded-full flex items-center justify-center mx-auto mb-5">
+            <svg class="w-8 h-8 sm:w-10 sm:h-10 text-[#E91E8C]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           </div>
-          <h3 class="text-lg font-bold mb-2">Fitting Perfectly</h3>
-          <p class="text-gray-500 text-sm">Finding clothes that fit those muscular boxer bodies is nearly impossible at a big box store. We make all of our jammies with your boxer in mind.</p>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Fitting Perfectly</h3>
+          <p class="text-gray-500 text-sm sm:text-base">Finding clothes that fit those muscular boxer bodies is nearly impossible at a big box store. We make all of our jammies with your boxer in mind.</p>
         </div>
         <div class="text-center">
-          <div class="w-14 h-14 bg-[#00B4C5]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg class="w-7 h-7 text-[#00B4C5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          <div class="w-16 h-16 sm:w-20 sm:h-20 bg-[#00B4C5]/10 rounded-full flex items-center justify-center mx-auto mb-5">
+            <svg class="w-8 h-8 sm:w-10 sm:h-10 text-[#00B4C5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
           </div>
-          <h3 class="text-lg font-bold mb-2">Serving Shelters</h3>
-          <p class="text-gray-500 text-sm">We're dedicated to supporting shelters across the country by donating special jammies and a percentage of our proceeds.</p>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Serving Shelters</h3>
+          <p class="text-gray-500 text-sm sm:text-base">We're dedicated to supporting shelters across the country by donating special jammies and a percentage of our proceeds.</p>
         </div>
-        <div class="text-center">
-          <div class="w-14 h-14 bg-[#E91E8C]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg class="w-7 h-7 text-[#E91E8C]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        <div class="text-center sm:col-span-2 lg:col-span-1">
+          <div class="w-16 h-16 sm:w-20 sm:h-20 bg-[#E91E8C]/10 rounded-full flex items-center justify-center mx-auto mb-5">
+            <svg class="w-8 h-8 sm:w-10 sm:h-10 text-[#E91E8C]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
           </div>
-          <h3 class="text-lg font-bold mb-2">Spreading Joy</h3>
-          <p class="text-gray-500 text-sm">Our prints are designed to be playful, fun, and funky so that you can show off your boxer's true, sweet personality wherever you go.</p>
+          <h3 class="text-lg sm:text-xl font-bold mb-3">Spreading Joy</h3>
+          <p class="text-gray-500 text-sm sm:text-base">Our prints are designed to be playful, fun, and funky so that you can show off your boxer's true, sweet personality wherever you go.</p>
         </div>
       </div>
-      <div class="text-center mt-10">
-        <a href="/collections/all" class="inline-block bg-[#E91E8C] text-white px-8 py-3.5 rounded-full font-semibold text-sm uppercase tracking-wide hover:bg-[#d11a7d] transition-colors">
+      <div class="text-center mt-10 sm:mt-14">
+        <a href="/collections/all" class="inline-block bg-[#E91E8C] text-white px-8 sm:px-10 py-4 rounded-full font-semibold text-sm uppercase tracking-wide hover:bg-[#d11a7d] transition-colors">
           Shop Now
         </a>
       </div>
@@ -395,13 +399,13 @@
   </section>
 
   <!-- Newsletter -->
-  <section class="py-14 bg-[#00B4C5]">
-    <div class="max-w-lg mx-auto px-6 text-center text-white">
-      <h2 class="text-2xl font-bold mb-2 font-display">New Boxer Parent?</h2>
-      <p class="text-lg mb-6 opacity-90">10% off your first order!</p>
-      <form class="flex gap-2">
-        <input type="email" placeholder="Email address" class="flex-1 px-5 py-3 rounded-full text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-white" />
-        <button type="submit" class="bg-[#E91E8C] px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#d11a7d] transition-colors">
+  <section class="py-14 sm:py-16 lg:py-20 bg-[#00B4C5]">
+    <div class="max-w-xl mx-auto px-4 sm:px-6 text-center text-white">
+      <h2 class="text-2xl sm:text-3xl font-bold mb-3 font-display">New Boxer Parent?</h2>
+      <p class="text-lg sm:text-xl mb-8 opacity-90">10% off your first order!</p>
+      <form class="flex flex-col sm:flex-row gap-3">
+        <input type="email" placeholder="Email address" class="flex-1 px-5 py-4 rounded-full text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-white" />
+        <button type="submit" class="bg-[#E91E8C] px-8 py-4 rounded-full font-semibold text-sm hover:bg-[#d11a7d] transition-colors">
           Subscribe
         </button>
       </form>
@@ -409,57 +413,57 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-14">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="grid md:grid-cols-4 gap-10 mb-10">
+  <footer class="bg-gray-900 text-white py-14 sm:py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-12 mb-10 sm:mb-14">
         <div>
-          <h3 class="font-bold text-sm uppercase tracking-wide mb-4">Shop</h3>
-          <ul class="space-y-2 text-gray-400 text-sm">
+          <h3 class="font-bold text-sm uppercase tracking-wide mb-4 sm:mb-5">Shop</h3>
+          <ul class="space-y-2 sm:space-y-3 text-gray-400 text-sm">
             <li><a href="/collections/all" class="hover:text-white transition-colors">All Products</a></li>
-            <li><a href="/collections/apparel" class="hover:text-white transition-colors">Matching Adult & Pup Pajamas</a></li>
-            <li><a href="/collections/baby-onesies" class="hover:text-white transition-colors">Matching Baby & Pup Onesies</a></li>
+            <li><a href="/collections/apparel" class="hover:text-white transition-colors">Matching Pajamas</a></li>
+            <li><a href="/collections/baby-onesies" class="hover:text-white transition-colors">Baby & Pup Onesies</a></li>
             <li><a href="/collections/bandanas" class="hover:text-white transition-colors">Bandanas</a></li>
             <li><a href="/collections/collars" class="hover:text-white transition-colors">Collars</a></li>
             <li><a href="https://pittieclothing.com" class="text-[#E91E8C] hover:text-[#ff6eb5] transition-colors">Pittie Clothing Co. →</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="font-bold text-sm uppercase tracking-wide mb-4">Info</h3>
-          <ul class="space-y-2 text-gray-400 text-sm">
+          <h3 class="font-bold text-sm uppercase tracking-wide mb-4 sm:mb-5">Info</h3>
+          <ul class="space-y-2 sm:space-y-3 text-gray-400 text-sm">
             <li><a href="/pages/returns" class="hover:text-white transition-colors">Returns & Exchanges</a></li>
             <li><a href="/pages/faq" class="hover:text-white transition-colors">FAQ's</a></li>
             <li><a href="/pages/sizing" class="hover:text-white transition-colors">Sizing</a></li>
             <li><a href="/pages/about" class="hover:text-white transition-colors">Our Story</a></li>
-            <li><a href="/pages/rescue-partner" class="hover:text-white transition-colors">Become a Rescue Partner</a></li>
+            <li><a href="/pages/rescue-partner" class="hover:text-white transition-colors">Rescue Partner</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="font-bold text-sm uppercase tracking-wide mb-4">Customer Service</h3>
-          <ul class="space-y-2 text-gray-400 text-sm">
+          <h3 class="font-bold text-sm uppercase tracking-wide mb-4 sm:mb-5">Support</h3>
+          <ul class="space-y-2 sm:space-y-3 text-gray-400 text-sm">
             <li><a href="/pages/contact" class="hover:text-white transition-colors">Contact</a></li>
             <li><a href="/pages/terms" class="hover:text-white transition-colors">Terms & Conditions</a></li>
             <li><a href="/pages/privacy" class="hover:text-white transition-colors">Privacy Policy</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="font-bold text-sm uppercase tracking-wide mb-4">Newsletter</h3>
-          <form class="space-y-2">
-            <input type="text" placeholder="First Name" class="w-full px-4 py-2.5 rounded text-sm bg-gray-800 border border-gray-700 focus:outline-none focus:border-[#E91E8C]" />
-            <input type="email" placeholder="Email" class="w-full px-4 py-2.5 rounded text-sm bg-gray-800 border border-gray-700 focus:outline-none focus:border-[#E91E8C]" />
-            <button type="submit" class="w-full bg-[#E91E8C] py-2.5 rounded text-sm font-semibold hover:bg-[#d11a7d] transition-colors">Subscribe</button>
+          <h3 class="font-bold text-sm uppercase tracking-wide mb-4 sm:mb-5">Newsletter</h3>
+          <form class="space-y-3">
+            <input type="text" placeholder="First Name" class="w-full px-4 py-3 rounded text-sm bg-gray-800 border border-gray-700 focus:outline-none focus:border-[#E91E8C]" />
+            <input type="email" placeholder="Email" class="w-full px-4 py-3 rounded text-sm bg-gray-800 border border-gray-700 focus:outline-none focus:border-[#E91E8C]" />
+            <button type="submit" class="w-full bg-[#E91E8C] py-3 rounded text-sm font-semibold hover:bg-[#d11a7d] transition-colors">Subscribe</button>
           </form>
         </div>
       </div>
-      <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-        <div class="flex gap-4">
+      <div class="border-t border-gray-800 pt-8 sm:pt-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex gap-5">
           <a href="#" class="text-gray-400 hover:text-white transition-colors">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
           </a>
           <a href="#" class="text-gray-400 hover:text-white transition-colors">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
           </a>
         </div>
-        <p class="text-gray-500 text-sm">© 2026 Boxer Clothing Co. | A Sister Company of Pittie Clothing Co.</p>
+        <p class="text-gray-500 text-sm text-center sm:text-right">© 2026 Boxer Clothing Co. | A Sister Company of Pittie Clothing Co.</p>
       </div>
     </div>
   </footer>
